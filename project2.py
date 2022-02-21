@@ -1,3 +1,6 @@
+from mimetypes import init
+
+
 year = int(input("Enter the Year: "))
 if year%4==0:
     if year%100==0:
